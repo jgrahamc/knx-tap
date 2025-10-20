@@ -1,0 +1,650 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e29988c4-099a-47e2-9764-7c3248fdf7ae")
+	(paper "A4")
+	(title_block
+		(title "KNX Tap")
+		(date "2025-10-06")
+		(rev "0.1")
+		(company "jgc.org")
+		(comment 1 "John Graham-Cumming")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 74.93 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6713ee05-19a6-43f0-a5e2-5d37d72f84d6")
+	)
+	(junction
+		(at 99.06 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "768b18f6-7c8a-4596-b516-ec0e806ab758")
+	)
+	(junction
+		(at 96.52 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "832c1803-ef19-42e9-81f4-147ded30a753")
+	)
+	(junction
+		(at 77.47 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fffa970-d04c-4e41-a4b9-25f0fdcda9e9")
+	)
+	(wire
+		(pts
+			(xy 99.06 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a682242-a16a-4b43-9ccf-cd5521892b91")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 77.47 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9e83a7-6620-4bcc-8f99-841f31436c4f")
+	)
+	(wire
+		(pts
+			(xy 55.245 49.53) (xy 55.245 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39948a3d-5291-4059-9121-0cd98688d555")
+	)
+	(wire
+		(pts
+			(xy 118.11 48.895) (xy 118.11 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567be611-9d1f-4285-8382-8fc9cdacf9a9")
+	)
+	(wire
+		(pts
+			(xy 96.52 48.895) (xy 96.52 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a617dae-2e17-4ef7-8073-955c5fc7ed07")
+	)
+	(wire
+		(pts
+			(xy 52.705 49.53) (xy 52.705 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94220d65-b963-43b2-a02d-152fcbf0de0b")
+	)
+	(wire
+		(pts
+			(xy 120.65 48.895) (xy 120.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1eaea8-2eff-42a4-80cb-0c178a480694")
+	)
+	(wire
+		(pts
+			(xy 55.245 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b847bc5a-1688-4fcf-b47b-db9c88110325")
+	)
+	(wire
+		(pts
+			(xy 120.65 44.45) (xy 99.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b86946-fc95-4a88-b06f-404f54c5c56d")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 74.93 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db392df2-78a3-401f-802c-30e2439cfb01")
+	)
+	(wire
+		(pts
+			(xy 96.52 41.91) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de44e0f7-1792-46ea-991e-b525cd0ea4c4")
+	)
+	(wire
+		(pts
+			(xy 99.06 48.895) (xy 99.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1799bba-7d80-4543-aba1-9c264d632d59")
+	)
+	(wire
+		(pts
+			(xy 52.705 41.91) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f303aa23-e804-47f8-8de5-340888b0950e")
+	)
+	(wire
+		(pts
+			(xy 118.11 41.91) (xy 96.52 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3e3601-2367-44d6-b2ac-2a37c68cc013")
+	)
+	(label "black"
+		(at 84.455 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5fd7ec6-e75f-46fe-91a7-3915b626796f")
+	)
+	(label "red"
+		(at 84.455 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db7f8454-d393-4fce-945b-3aab239bd1a1")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 74.93 53.975 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84f77fb2-5d5e-4e62-83b1-4fa65122e747")
+		(property "Reference" "J2"
+			(at 78.74 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 78.74 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wago:Wago-243-211"
+			(at 74.93 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4191eb55-817b-4288-85b1-602b876610c5")
+		)
+		(pin "2"
+			(uuid "4515702f-c7d3-414c-8f7c-09b4d1141a90")
+		)
+		(instances
+			(project "pcb-knx-distributor"
+				(path "/e29988c4-099a-47e2-9764-7c3248fdf7ae"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 118.11 53.975 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89fb770e-4418-49c0-9655-7b8feca61fc7")
+		(property "Reference" "J4"
+			(at 121.92 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 121.92 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wago:Wago-243-211"
+			(at 118.11 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f87c4d4-d1d7-4efc-a666-c176d2282e8e")
+		)
+		(pin "2"
+			(uuid "1a917add-ef57-4694-a151-02d71c5261f5")
+		)
+		(instances
+			(project "pcb-knx-distributor"
+				(path "/e29988c4-099a-47e2-9764-7c3248fdf7ae"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 52.705 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "904cc802-1051-4f53-b52e-8b7564c0ae9f")
+		(property "Reference" "J1"
+			(at 57.15 52.705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 57.15 55.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wago:Wago-243-211"
+			(at 52.705 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.705 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.705 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b847182f-eda6-460d-9498-dc66f5a4c0a7")
+		)
+		(pin "2"
+			(uuid "bba39600-7cb3-4cca-bea7-e826d10de21e")
+		)
+		(instances
+			(project "pcb-knx-distributor"
+				(path "/e29988c4-099a-47e2-9764-7c3248fdf7ae"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 96.52 53.975 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6602e9c-1af3-4e61-98a3-f697b1b00f91")
+		(property "Reference" "J3"
+			(at 100.33 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 100.33 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wago:Wago-243-211"
+			(at 96.52 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d234338-2654-4ba2-a220-193c449ce56c")
+		)
+		(pin "2"
+			(uuid "92808aa8-3075-4d80-94ca-b5277178c7a3")
+		)
+		(instances
+			(project "pcb-knx-distributor"
+				(path "/e29988c4-099a-47e2-9764-7c3248fdf7ae"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
